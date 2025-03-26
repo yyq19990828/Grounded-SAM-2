@@ -40,7 +40,7 @@ if not os.path.exists(OUTPUT_DIR):
 Init Florence-2 and SAM 2 Model
 """
 
-FLORENCE2_MODEL_ID = "microsoft/Florence-2-large"
+FLORENCE2_MODEL_ID = "Florence-2-large-ft"
 SAM2_CHECKPOINT = "./checkpoints/sam2.1_hiera_large.pt"
 SAM2_CONFIG = "configs/sam2.1/sam2.1_hiera_l.yaml"
 
